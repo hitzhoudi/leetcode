@@ -60,6 +60,4 @@ public class DFSMatrix {
 		DFSMatrix solution = new DFSMatrix();
 		System.out.println(solution.search(matrix));
 	}
-	
-	
 }
