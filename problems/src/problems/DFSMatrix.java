@@ -53,10 +53,11 @@ public class DFSMatrix {
 	}
 
 	public final static void main(String[] args) {
-		char[][] matrix = {{'.', '.', '#', '#'},
-						{'.', '.', '#', '#'},
-						{'#', '.', '.', '#'},
-						{'#', '.', '.', '.'}};
+		char[][] matrix = {{'.', '#', '.', '.', '.'},
+						{'.', '#', '.', '#', '.'},
+						{'.', '#', '.', '#', '.'},
+						{'.', '#', '.', '#', '.'},
+						{'.', '.', '.', '#', '.'}};
 		DFSMatrix solution = new DFSMatrix();
 		System.out.println(solution.search(matrix));
 	}
