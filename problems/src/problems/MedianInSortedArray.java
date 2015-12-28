@@ -33,9 +33,9 @@ public class MedianInSortedArray {
 	}
 
 	public final static void main(String[] args) {
-		int[] nums = {0, 2, 4, 6, 8, 10, 11, 14, 16, 17};
+		int[] nums = {0, 2, 4, 6, 8, 10, 11, 11, 11, 11};
 		MedianInSortedArray solution = new MedianInSortedArray();
-		System.out.println(solution.medianInSortedArray(nums, 10));
+		System.out.println(solution.medianInSortedArray(nums, 11));
 		System.out.println(solution.medianInSortedArray(nums, 0));
 		System.out.println(solution.medianInSortedArray(nums, 12));
 		System.out.println(solution.medianInSortedArray(nums, -1));
